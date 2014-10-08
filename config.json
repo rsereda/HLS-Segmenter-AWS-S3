@@ -1,0 +1,11 @@
+{
+"aws":{
+		"access_key":"AWS Access Key",
+		"secret_key":"AWS Secure Key",
+		"s3bucket": "S3 bucket name"},
+"tmp":"/tmp/tmp/",
+"source":"/home/video/",
+"log":"/home/log.log",
+"ffmpeg": "/usr/bin/ffmpeg",
+"ffprobe" : "/usr/bin/ffprobe"
+}
