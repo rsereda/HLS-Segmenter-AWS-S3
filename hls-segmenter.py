@@ -56,7 +56,7 @@ def isVideo (ffprobe,filename):
 		if not len (video_stat) is 0 :
 			if 'streams' in video_stat:
 				logging.debug('isVideo ' + 'tested ' + filename )
-				if len (video_stat['streams']) > 2:
+				if len (video_stat['streams']) >= 2:
 					logging.debug('isVideo ' + 'tested the is Vidoe' + filename )
 					return video_stat
 		return False
